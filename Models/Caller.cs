@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
-using System.Web;
+using System.Text;
 
 namespace CallLoger.Models
 {
-    public class CallType
+    public class Caller
     {
         [Key]
         public int ID { get; set; }
